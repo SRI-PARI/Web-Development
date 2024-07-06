@@ -1,0 +1,68 @@
+
+ /*element selector
+ ============================*/
+/*
+h1{
+    color: blue;
+}                                
+p{
+    color:palevioletred;
+}
+*/
+
+
+/*id selector
+====================================*/
+/*
+#unique{
+    color:aquamarine
+}
+#uni{
+    color:beige;        
+}
+*/
+ 
+ 
+ /*class selector
+ ==============================*/
+/*
+.group{
+    color:pink;                     
+    }
+*/
+
+/*universal selector
+=========================================*/
+/*
+*{
+    color: violet;              
+}
+*/
+
+/* group selctor
+==================================*/
+/*h1,p{
+
+    color: yellowgreen;
+}
+*/
+/* desendent selctor 
+===========================================*/
+/*
+#out.in{
+    color:brown;
+}
+*/
+
+/* child combinator selctor 
+===========================================*/
+/*
+#out>.in{
+    color:brown;
+}
+*/
+/* pseudo selctor 
+===========================================*/
+p:hover{
+      color: aqua;
+}

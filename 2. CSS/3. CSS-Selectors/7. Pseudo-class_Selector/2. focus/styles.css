@@ -1,0 +1,4 @@
+/* Change border color of input fields when focused */
+input.focus-example:focus {
+    border-color: #007bff;
+}

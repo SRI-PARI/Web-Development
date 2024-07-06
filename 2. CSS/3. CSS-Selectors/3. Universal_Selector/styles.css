@@ -1,0 +1,13 @@
+/* Apply styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply additional styles to all elements */
+* {
+    color: #333;
+    line-height: 1.6;
+}

@@ -1,0 +1,58 @@
+/* This is a comment explaining the styling for paragraph elements */
+
+/* Apply styles to all <p> elements */
+p {
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 16px; /* Set font size */
+    line-height: 1.6; /* Set line height */
+    color: #333; /* Set text color */
+    margin-bottom: 20px; /* Add space below paragraphs */
+}
+
+/* This is a comment for the styling of <h1> elements */
+
+/* Apply styles to all <h1> elements */
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Set font family */
+    font-size: 28px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #555; /* Set text color */
+    margin-bottom: 15px; /* Add space below headings */
+    text-align: center; /* Center align heading */
+}
+
+/* Comment for styling links within paragraphs */
+
+/* Apply styles to links within <p> elements */
+p a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links within <p> elements */
+p a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Comment for styling unordered list */
+
+/* Apply styles to <ul> elements */
+ul {
+    list-style-type: disc; /* Set bullet point style */
+    margin-bottom: 20px; /* Add space below unordered lists */
+}
+
+/* Apply styles to <li> elements within <ul> */
+ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Comment for styling images */
+
+/* Apply styles to all <img> elements */
+img {
+    max-width: 100%; /* Ensure images do not exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline layout */
+    margin-bottom: 15px; /* Add space below images */
+}

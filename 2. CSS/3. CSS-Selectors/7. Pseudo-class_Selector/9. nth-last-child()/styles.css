@@ -1,0 +1,4 @@
+/* Style the second-to-last list item in an unordered list */
+.nth-last-child-example > li:nth-last-child(2) {
+    font-style: italic;
+}

@@ -1,0 +1,4 @@
+/* Style every second paragraph within a section */
+.nth-of-type-example > p:nth-of-type(odd) {
+    background-color: #f0f0f0;
+}

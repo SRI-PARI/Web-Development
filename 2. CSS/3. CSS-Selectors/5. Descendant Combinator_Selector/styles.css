@@ -1,0 +1,33 @@
+/* Style paragraphs that are descendants of elements with class "container" */
+.container p {
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Set text color */
+    line-height: 1.6; /* Set line height */
+    margin-bottom: 20px; /* Add space below paragraphs */
+}
+
+/* Style links within paragraphs that are descendants of elements with class "container" */
+.container p a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links within paragraphs that are descendants of elements with class "container" */
+.container p a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style list items within unordered lists that are descendants of elements with class "sidebar" */
+.sidebar ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Style headings that are descendants of elements with class "main-content" */
+.main-content h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Set font family */
+    font-size: 24px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #555; /* Set text color */
+    margin-bottom: 15px; /* Add space below headings */
+}

@@ -1,0 +1,20 @@
+/* Styles for the box model example */
+.box-model-example {
+    /* The width of the content area */
+    width: 200px;
+
+    /* The height of the content area */
+    height: 100px;
+
+    /* Padding around the content */
+    padding: 20px;
+
+    /* Border around the padding */
+    border: 10px solid #000;
+
+    /* Margin outside the border */
+    margin: 30px;
+
+    /* Background color of the content area */
+    background-color: #f0f0f0;
+}

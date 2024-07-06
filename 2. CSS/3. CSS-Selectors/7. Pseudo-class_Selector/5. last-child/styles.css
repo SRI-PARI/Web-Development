@@ -1,0 +1,4 @@
+/* Style the last list item in an unordered list */
+.last-child-example > li:last-child {
+    font-style: italic;
+}

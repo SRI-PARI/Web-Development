@@ -1,0 +1,4 @@
+/* Change background color of buttons when clicked */
+button.active-example:active {
+    background-color: #ccc;
+}

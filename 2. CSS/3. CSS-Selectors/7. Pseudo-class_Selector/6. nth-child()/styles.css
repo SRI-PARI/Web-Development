@@ -1,0 +1,4 @@
+/* Style every third list item in an ordered list */
+.nth-child-example > li:nth-child(3n) {
+    color: red;
+}

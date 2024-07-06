@@ -1,0 +1,4 @@
+/* Style all list items except the first one */
+.not-example > li:not(:first-child) {
+    margin-top: 10px;
+}

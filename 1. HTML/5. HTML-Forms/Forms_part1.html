@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <lable for="fname">First name</lable>
+        <input type="text" id="fname" value="Sri">
+        <lable for="lname">Last name</lable>
+        <input type="text" id="lname" value="Pari">
+        <br><br>
+        Select Your Gender  :
+        <input type="radio" id="gender" name="gender" value="Male">
+        <lable for="gender">Male</lable>    
+
+        <input type="radio" id="gender" name="gender" value="FeMale">
+        <lable for="gender">FEMale</lable>
+
+        <input type="radio" id="gender" name="gender" value="Other">
+        <lable for="gender">Other</lable>
+        <br><br>
+        Select Your Job Mode:
+        
+        <input type="checkbox" id="jobmode" name="jobmode" value="remote">
+        <lable for="jobmode">Remote</lable>    
+
+        <input type="checkbox" id="jobmode" name="jobmode" value="Hybrid">
+        <lable for="jobmode">Hybrid</lable>
+
+        <input type="checkbox" id="jobmode" name="jobmode" value="Flexible">
+        <lable for="jobmode">Flexible</lable>
+        
+        <br><br>
+        select Industry:<br>
+        <select>
+            <option value="IT">IT</option>
+            <option value="Software "selected>Software</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Business">Business</option>
+        </select>
+        <br><br>
+        <select size="3" multiple>
+            <option value="IT">IT</option>
+            <option value="Software "selected>Software</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Business">Business</option>
+        </select>
+        <br><br>
+
+        <textarea rows="5" cols="50">
+            Hi This is mainly used to write the content.
+        </textarea>
+        <br><br>
+        <fieldset>
+            <legend>
+                Personal Info:<br>
+                <lable for="fname">First name</lable>
+                <input type="text" id="fname" value="Sri">
+                <lable for="lname">Last name</lable>
+                <input type="text" id="lname" value="Pari">
+
+            </legend>
+        </fieldset>
+            <br><br>
+            <input list="jobtype">
+            <datalist id="jobtype">
+            <option value="IT">IT</option>
+            <option value="Software "selected>Software</option>
+            <option value="Hardware">Hardware</option>
+            <option value="Business">Business</option>   
+            </datalist>
+        
+        <br><br>
+        <input type="submit">
+        <input type="button" value="Try it">
+    </form>
+    
+</body>
+</html>

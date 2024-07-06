@@ -1,0 +1,95 @@
+/* Style for the heading */
+.heading {
+    /* Font size of the heading */
+    font-size: 2em;
+    
+    /* Font weight of the heading */
+    font-weight: bold;
+    
+    /* Text color */
+    color: #333;
+    
+    /* Font family of the heading */
+    font-family: 'Arial', sans-serif;
+    
+    /* Margin of the heading */
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph */
+.paragraph {
+    /* Font size of the paragraph */
+    font-size: 1em;
+    
+    /* Line height of the paragraph */
+    line-height: 1.5;
+    
+    /* Text color */
+    color: #666;
+    
+    /* Font family of the paragraph */
+    font-family: 'Verdana', sans-serif;
+    
+    /* Margin of the paragraph */
+    margin-bottom: 10px;
+}
+
+/* Underline text */
+.underline {
+    /* Text decoration */
+    text-decoration: underline;
+}
+
+/* Italic text */
+.italic {
+    /* Font style */
+    font-style: italic;
+}
+
+/* Bold text */
+.bold {
+    /* Font weight */
+    font-weight: bold;
+}
+
+/* Uppercase text */
+.uppercase {
+    /* Text transform */
+    text-transform: uppercase;
+}
+
+/* Center aligned text */
+.center {
+    /* Text alignment */
+    text-align: center;
+}
+
+/* Different font family */
+.font-family {
+    /* Font family */
+    font-family: 'Courier New', monospace;
+}
+
+/* Different font size */
+.font-size {
+    /* Font size */
+    font-size: 1.5em;
+}
+
+/* Different line height */
+.line-height {
+    /* Line height */
+    line-height: 2;
+}
+
+/* Increased letter spacing */
+.letter-spacing {
+    /* Letter spacing */
+    letter-spacing: 2px;
+}
+
+/* Text with shadow */
+.text-shadow {
+    /* Text shadow */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}

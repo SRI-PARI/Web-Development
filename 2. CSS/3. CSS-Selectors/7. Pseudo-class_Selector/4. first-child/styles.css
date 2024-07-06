@@ -1,0 +1,4 @@
+/* Style the first paragraph within a div */
+.first-child-example > p:first-child {
+    font-weight: bold;
+}

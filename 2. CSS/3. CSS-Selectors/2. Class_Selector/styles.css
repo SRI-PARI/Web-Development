@@ -1,0 +1,41 @@
+/* Apply styles to elements with class "container" */
+.container {
+    max-width: 1200px; /* Set maximum width */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px; /* Add padding inside container */
+    background-color: #f0f0f0; /* Set background color */
+    border: 1px solid #ccc; /* Add border */
+}
+
+/* Apply styles to elements with class "header" */
+.header {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px; /* Add padding */
+}
+
+/* Apply styles to elements with class "navbar" */
+.navbar {
+    background-color: #666; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px; /* Add padding */
+}
+
+/* Apply styles to elements with class "main-content" */
+.main-content {
+    padding: 20px; /* Add padding */
+}
+
+/* Apply styles to elements with class "sidebar" */
+.sidebar {
+    float: right; /* Float sidebar to the right */
+    width: 30%; /* Set width */
+    padding: 20px; /* Add padding */
+}
+
+/* Apply styles to elements with class "footer" */
+.footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px; /* Add padding */
+}

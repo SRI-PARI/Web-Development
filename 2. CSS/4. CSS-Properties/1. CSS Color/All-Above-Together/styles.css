@@ -1,0 +1,47 @@
+/* Named color */
+.named-color {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Hex color */
+.hex-color {
+    color: white;
+    background-color: #00ff00;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* RGB color */
+.rgb-color {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* RGBA color */
+.rgba-color {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* HSL color */
+.hsl-color {
+    color: white;
+    background-color: hsl(120, 100%, 50%);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* HSLA color */
+.hsla-color {
+    color: white;
+    background-color: hsla(240, 100%, 50%, 0.3);
+    padding: 10px;
+    margin: 10px 0;
+}
